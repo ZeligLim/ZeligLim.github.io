@@ -388,4 +388,32 @@ iframe {
 .about-card {
   padding: 30px 40px;
 }
+
+.contact-section {
+  padding: 30px 60px;
+
+}
+}
+
+@media (max-width: 600px) {
+ .content-wrapper {
+  margin: 0px 10px;
+
+}
+#resume {
+  padding: 10px 15px;
+}
+
+.project {
+  padding: 10px 15px;
+}
+
+.about-card {
+  padding: 10px 15px;
+}
+
+.contact-section {
+  padding: 10px 20px;
+
+}
 }
