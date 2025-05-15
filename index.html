@@ -1,159 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lim Zhi Lit's personal portfolio site showcasing software and electronics projects, music, and achievements." />
-  <meta name="author" content="Lim Zhi Lit" />
-  <meta name="keywords" content="portfolio, software, electronics, web development, classical music, Lim Zhi Lit" />
-  <title>Lim Zhi Lit | Portfolio</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f7;
-      color: #333;
-    }
-
-    header {
-      background-color: #fff;
-      color: #000;
-      padding: 3rem;
-      text-align: center;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    header p {
-      font-size: 1.25rem;
-      margin-top: 0.5rem;
-      color: #666;
-    }
-
-    nav {
-      margin-top: 2rem;
-    }
-
-    nav a {
-      color: #007aff;
-      font-size: 1.1rem;
-      margin: 0 1.5rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 1px;
-      transition: color 0.2s ease;
-    }
-
-    nav a:hover {
-      color: #0051a8;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    section {
-      margin-bottom: 4rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      color: #333;
-      margin-bottom: 1.5rem;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      font-size: 1.1rem;
-      margin: 1rem 0;
-      color: #444;
-      line-height: 1.6;
-    }
-
-    a {
-      text-decoration: none;
-      color: #007aff;
-    }
-
-    a:hover {
-      color: #0051a8;
-    }
-
-    footer {
-      background-color: #fff;
-      color: #888;
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.9rem;
-      box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Lim Zhi Lit</h1>
-    <p>Software & Electronics Engineering Student | Pianist | Innovator</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#cv">CV</a>
-      <a href="#music">Music</a>
-      <a href="#contact">Contact</a>
+  <div class="content-wrapper">
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <a href="#about" id="nav-about">About</a>
+      <a href="#projects" id="nav-projects">Projects</a>
+      <a href="#resume" id="nav-resume">Resume</a>
+      <a href="#contact" id="nav-contact">Contact</a>
     </nav>
-  </header>
+  </div>
+  <h1>Zelig Lim</h1>
 
-  <div class="container">
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Arduino Robot Car using Remote XY</li>
-        <li>Digital Counter with JK Flip-Flops (Tinkercad)</li>
-        <li>Personal Website using GitHub Pages</li>
-      </ul>
+    <section id="about" class="about-card">
+    <h2>About</h2>
+    <div class="about-content">
+        <p>
+        Hi, I’m Lim Zhi Lit, a passionate Software and Electronics Engineering student at Atlantic Technological University. I’m driven by curiosity and creativity — from building responsive websites and programming microcontrollers to composing music and connecting cultures.
+        <br><br>
+        With a background in both software and hardware, I enjoy creating meaningful projects that bridge digital and physical systems. Whether it’s coding in C and JavaScript, working with Arduino boards, or prototyping UI ideas, I strive to bring clarity and purpose to everything I build.
+        <br><br>
+        Outside of engineering, I’m a classical pianist (ABRSM Grade 8), a badminton enthusiast, and an international student ambassador. I believe in lifelong learning, cross-cultural friendships, and technology that improves everyday life.
+        <br><br>
+        I’m currently seeking opportunities to grow through hands-on experience — from tech internships to collaborative side projects. Let’s build something impactful together.
+        </p>
+        <img src="/images/my-image.jpeg" alt="Lim Zhi Lit" class="about-img" />
+
+    </div>
     </section>
 
-    <section id="cv">
-      <h2>CV Highlights</h2>
-      <ul>
-        <li>Bachelor's in Software & Electronics Engineering, ATU</li>
-        <li>Work Experience at Coach and Buy Piano Malaysia</li>
-        <li>Student Ambassador & Class Treasurer (Kuen Cheng High School)</li>
-      </ul>
-      <p><a href="mailto:zeliglim8@gmail.com">Download Full CV (PDF)</a></p>
-    </section>
-
-    <section id="music">
-      <h2>Music</h2>
-      <p>ABRSM Grade 8 Classical Piano | Orchestra Member</p>
-      <ul>
-        <li>Performed Chopin, Debussy, Beethoven</li>
-        <li>Accompanist for School Events</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:zeliglim8@gmail.com">zeliglim8@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/zeliglim" target="_blank">@zeliglim</a></p>
-    </section>
+<section id="projects" class="project">
+  <h2>Projects</h2>
+  <div class="card-container">
+    <div class="card" onclick="openOverlay(0)">
+      <img src="/images/RoboCar.png" alt="Project 1">
+      <h3>Robo Car </h3>
+    </div>
+    <div class="card" onclick="openOverlay(1)">
+      <img src="/images/Sensors.jpeg" alt="Project 2">
+      <h3>Sensors  </h3>
+    </div>
+    <div class="card" onclick="openOverlay(2)">
+      <img src="/images/tictactoe.png" alt="Project 3">
+      <h3>Tic Tac Toe</h3>
+    </div>
   </div>
 
-  <footer>
-    &copy; 2025 Lim Zhi Lit. All rights reserved.
-  </footer>
+  <!-- Overlay -->
+  <div id="overlay" class="overlay" onclick="closeOverlay()">
+    <div class="overlay-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closeOverlay()">&times;</span>
+      <h3 id="overlay-title">Project Title</h3>
+      <p id="overlay-description">Project details go here...</p>
+    </div>
+  </div>
+</section>
+
+  <section id="resume">
+  <h2>Resume</h2>
+  <div class="resume-download">
+    <a href="/documents/resume.pdf" download class="download-btn">
+  <i class="fas fa-download"></i> Download Resume
+</a>
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <iframe 
+      src="/documents/resume.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+      width="600px" 
+      height="850px" 
+      style="border: none;">
+    </iframe>
+    
+  </div>
+  
+</div>
+
+  
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+  <p>Let’s connect and create something meaningful together.</p>
+  <div class="social-icons">
+    <a href="mailto:zeliglim8@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/zeliglim" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/ZeligLim" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/zelig_lim/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
