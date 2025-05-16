@@ -323,6 +323,10 @@ iframe {
 }
 
 @media (max-width: 800px) {
+  h1 {
+    font-size: 5rem;
+    margin: 100px 0px 200px 0px;
+  }
   .about-content {
   display: flex;
   flex-direction: column;
@@ -389,6 +393,10 @@ iframe {
   padding: 30px 40px;
 }
 
+.about-img {
+  margin-bottom: 10px;
+}
+
 .contact-section {
   padding: 30px 60px;
 
@@ -404,6 +412,10 @@ iframe {
   padding: 20px 30px;
 }
 
+iframe {
+max-height: 500px;
+}
+
 .project {
   padding: 20px 30px;
 }
@@ -414,6 +426,17 @@ iframe {
 
 .contact-section {
   padding: 20px 40px;
+  padding-bottom: 120px;
 
 }
+
+.navbar a {
+  padding: 5px 10px;
+}
+
+.social-icons {
+
+  gap: 20px;
+}
+ 
 }
